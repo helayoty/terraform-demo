@@ -6,7 +6,7 @@ variable "name" {
 variable "resource_group_name" {
   type        = string
   description = "The name of an existing resource group to use for the web app."
-  default = "terraform-demo"
+  default     = "terraform-demo"
 }
 
 variable "container_type" {
